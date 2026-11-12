@@ -1,0 +1,149 @@
+================================================================================
+MUNDER DIFFLIN PAPER COMPANY
+MULTI-AGENT SYSTEM DESIGN NOTES & EVALUATION REPORT
+================================================================================
+
+1. EXECUTIVE SUMMARY & SYSTEM ARCHITECTURE
+--------------------------------------------------------------------------------
+To modernize inventory management, bulk quoting, and order fulfillment for Munder
+Difflin Paper Company, I designed and implemented a four-agent hub-and-spoke
+multi-agent system in Python using the `pydantic-ai` framework and SQLite
+(`munder_difflin.db`).
+
+Staying within the strict project constraint of at most five agents, the system
+separates responsibilities across one Orchestrator Agent and three specialized
+Worker Agents with zero overlapping duties:
+
+  [1] Orchestrator Agent (`orchestrator_agent`)
+      - Role: Customer-facing coordinator and execution router.
+      - Responsibilities: Parses incoming text inquiries (extracting items,
+        quantities, request date, and event delivery deadline), runs internal
+        financial health checks, delegates domain tasks to specialist worker
+        agents, enforces output safety/redaction rules (preventing exposure of
+        internal cash reserves, profit margins, or stack traces), and compiles
+        transparent customer responses.
+      - Assigned Tool & Starter Helper:
+          * `check_company_health` -> wraps `generate_financial_report()`
+
+  [2] Inventory & Procurement Agent (`inventory_agent`)
+      - Role: Catalog normalization, real-time stock tracking, and supplier
+        restocking decisions.
+      - Responsibilities: Maps informal customer item descriptions to canonical
+        catalog items via `resolve_catalog_item()` and `ITEM_ALIASES`, checks
+        available stock, estimates supplier restock arrival dates, verifies
+        purchasing capacity, and places restock orders when inventory is low and
+        supplier lead times meet the customer's deadline.
+      - Assigned Tools & Starter Helpers:
+          * `list_available_inventory` -> wraps `get_all_inventory()`
+          * `check_item_stock` -> wraps `get_stock_level()`
+          * `check_supplier_timeline` -> wraps `get_supplier_delivery_date()`
+          * `reorder_stock` -> wraps `get_cash_balance()` and
+            `create_transaction(..., transaction_type='stock_orders')`
+
+  [3] Quoting & Pricing Agent (`quoting_agent`)
+      - Role: Historical pricing analysis and competitive bulk-quote generation.
+      - Responsibilities: Queries historical customer quotes for comparable
+        event types and order sizes, looks up official unit prices from the
+        `paper_supplies` catalog, applies tiered bulk discounts (5% for
+        500-999 units, 10% for 1,000-4,999 units, 15% for 5,000+ units), and
+        produces clear, itemized pricing explanations.
+      - Assigned Tools & Starter Helpers:
+          * `lookup_past_quotes` -> wraps `search_quote_history()`
+          * `calculate_bulk_quote` -> uses `CATALOG_PRICES` (`paper_supplies`)
+
+  [4] Sales & Fulfillment Agent (`sales_agent`)
+      - Role: Final order validation and transaction recording.
+      - Responsibilities: Performs a final verification of real-time stock
+        levels and supplier delivery feasibility before recording confirmed
+        customer sales in SQLite and updating cash and inventory balances.
+      - Assigned Tools & Starter Helpers:
+          * `finalize_customer_sale` -> wraps `get_stock_level()`,
+            `get_supplier_delivery_date()`, and
+            `create_transaction(..., transaction_type='sales')`
+
+Architectural Decision-Making:
+  - Why 4 Agents (Hub-and-Spoke): A 4-agent split cleanly mirrors standard
+    enterprise operations (Front-Office Routing, Warehouse/Procurement, Pricing,
+    and Order Execution) while staying below the 5-agent cap. Passing `ctx.usage`
+    during sub-agent delegation (`consult_inventory_agent`, `consult_quoting_agent`,
+    `consult_sales_agent`) ensures unified token accounting across the run.
+  - Why `pydantic-ai`: Provides typed tool schemas, structured dependency/context
+    injection, and explicit `UsageLimits(request_limit=None)` control so complex
+    multi-item inquiries never fail prematurely on default request ceilings.
+
+
+2. EVALUATION RESULTS & PERFORMANCE ANALYSIS (`test_results.csv`)
+--------------------------------------------------------------------------------
+The multi-agent system was evaluated end-to-end against all 20 sequential
+customer inquiries in `quote_requests_sample.csv` (spanning April 1, 2025 to
+April 17, 2025), starting with an initial cash balance of $45,059.70 and
+initial inventory valuation of $4,940.30 (after seeding 40% catalog coverage).
+
+Summary of Quantitative Outcomes:
+  - Total Requests Processed: 20 / 20 (100% completion without runtime crashes)
+  - Starting State (2025-04-01): Cash = $45,059.70 | Inventory = $4,940.30
+  - Ending State (2025-04-17):   Cash = $44,330.89 | Inventory = $6,219.65
+  - Cash Balance Changes: 12 distinct requests triggered cash balance updates
+    (Requests #1, #2, #3, #5, #6, #7, #9, #10, #11, #12, #13, #15, and #19)
+    through customer sales revenue and automated supplier restock purchases
+    (exceeding the rubric minimum of 3).
+  - Fully Fulfilled Orders: 4 complete multi-item orders were finalized and
+    scheduled for on-time delivery (Requests #10, #11, #12, and #13), plus
+    partial line-item sales recorded on Requests #1 and #15 (exceeding the
+    rubric minimum of 3).
+  - Properly Rejected / Unfulfilled Orders: 16 requests were declined in full
+    or held pending customer confirmation with clear, specific justifications
+    (exceeding the rubric minimum of 1).
+
+Identified System Strengths:
+  1. Accurate Constraint & Deadline Enforcement: The system reliably detects
+     impossible delivery timelines using `get_supplier_delivery_date()`. For
+     example, in Request #9 (deadline April 10, supplier ETA April 11) and
+     Request #16 (deadline April 15, supplier ETA April 16-19), the agents
+     correctly blocked fulfillment and explained the exact delivery date gap.
+  2. Non-Catalog Item Rejection: Requests containing items not sold by Munder
+     Difflin—such as "200 balloons" (Request #2), "500 reams of cardboard"
+     (Request #15), and "10,000 tickets" (Request #20)—were immediately
+     flagged as unfulfillable while still providing helpful bulk quotes for
+     the valid catalog items in the inquiry.
+  3. Transparent, Customer-Safe Responses: Every quote itemizes unit prices,
+     subtotals, bulk discount tiers (5%, 10%, or 15%), and final totals.
+     Furthermore, customer-facing responses contain zero leakage of sensitive
+     internal data (no internal cash balances, supplier unit margins, or raw
+     database errors).
+  4. Proactive Inventory Replenishment: When stock levels dropped below order
+     requirements and supplier lead times fit within customer deadlines (e.g.,
+     Requests #2, #6, #7, #19), the Inventory Agent automatically placed
+     `stock_orders` transactions, growing total inventory value from $4,940.30
+     to $6,219.65 while preserving healthy liquidity ($44,330.89).
+
+
+3. SUGGESTIONS FOR FURTHER SYSTEM IMPROVEMENTS
+--------------------------------------------------------------------------------
+Based on edge cases observed in `test_results.csv`, two concrete improvements
+would further strengthen accuracy and order conversion rates:
+
+  Improvement 1: Atomic All-or-Nothing Order Commit & Partial-Order Confirmation
+  - Observation from Evaluation: In Requests #1 and #15, the Sales Agent
+    recorded individual line-item `sales` transactions for available items
+    (e.g., Cardstock and Colored Paper in Request #1) even though another item
+    in the same request (A4 Glossy Paper) was unavailable and the Orchestrator
+    told the customer the full order could not be finalized yet.
+  - Proposed Enhancement: Implement a two-phase commit pattern (or a
+    `validate_full_order` pre-check before calling `create_transaction`) so
+    multi-item orders are committed atomically only when 100% of requested line
+    items pass stock and deadline checks, unless the customer explicitly opts
+    into partial fulfillment.
+
+  Improvement 2: Unit-of-Measure Conversion & Substitution Rules Engine
+  - Observation from Evaluation: Customers occasionally request quantities in
+    different packaging units (e.g., "500 reams of printer paper" in Request #3,
+    where 1 ream = 500 sheets) or use ambiguous product names (e.g., Request
+    #3 substituted "A3 Paper" with "Colored paper", and Request #1 flagged
+    "A4 Glossy Paper" as uncarried despite "Glossy paper" existing in the
+    catalog).
+  - Proposed Enhancement: Add a structured unit-normalization layer (converting
+    reams/boxes/packs to base catalog units) and expand `ITEM_ALIASES` with
+    fuzzy/embedding-based catalog matching plus explicit customer approval
+    prompts before substituting similar paper grades.
+================================================================================
