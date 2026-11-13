@@ -1,140 +1,124 @@
 request_id,request_date,cash_balance,inventory_value,response
-1,2025-04-01,45045.7,4980.3,"Thank you for your order request. Here’s the outcome of your inquiry:
+1,2025-04-01,45031.7,5030.3,"Your order has been successfully confirmed and recorded with the following details:
 
-1. **A4 Glossy Paper - 200 sheets**: Unfortunately, this item is *not available* as it is not carried in our catalog.
-2. **Heavy Cardstock (White) - 100 sheets**: This sale has been confirmed at a total of **$15.00** (Transaction #23).
-3. **Colored Paper (Assorted Colors) - 100 sheets**: This sale has also been confirmed at a total of **$10.00** (Transaction #22).
+### Ordered Items
+1. **A4 Glossy Paper**: 200 sheets for **$40.00** 
+2. **Heavy Cardstock (White)**: 100 sheets for **$15.00**
+3. **Colored Paper (Assorted Colors)**: 100 sheets for **$10.00**
 
-### Total Amount Due for Available Items: $25.00
+### Total Amount
+- **Subtotal**: $65.00
 
-Please note, since the A4 Glossy Paper cannot be finalized, your order cannot proceed as requested. Would you like to modify your order to exclude the A4 Glossy Paper or consider alternatives? Let me know how you would like to proceed!"
-2,2025-04-03,44934.7,4980.3,"Thank you for your order inquiry. Here is the status of the requested items:
+### Delivery Information
+All items will be delivered by **April 15, 2025**.
 
-1. **Colorful Poster Paper**: 
+If you have any further questions or need assistance with anything else, feel free to reach out! Thank you for choosing Munder Difflin Paper Company."
+2,2025-04-03,44917.7,5030.3,"Thank you for your order inquiry! Here’s a summary of the item availability and the quote:
+
+### Availability:
+1. **Colorful Poster Paper**:
    - Current Stock: 0 units
-   - Reordered: 700 units
-   - Estimated Delivery: April 7, 2025
-   - Status: Reorder successful.
+   - Ordered: 700 units from supplier (ETA: 2025-04-07)
+   - Status: Order placed successfully
 
-2. **Streamers**: 
+2. **Party Streamers**:
    - Current Stock: 0 units
-   - Reordered: 200 units
-   - Estimated Delivery: April 7, 2025
-   - Status: Reorder successful.
+   - Ordered: 300 units from supplier (ETA: 2025-04-07)
+   - Status: Order placed successfully
 
-3. **Balloons**: 
-   - Availability: Not carried in Munder Difflin's catalog.
-   - Status: **UNFULFILLABLE**.
+3. **Balloons**:
+   - Availability: Not in catalog (UNFULFILLABLE)
 
-Unfortunately, we cannot fulfill your order in its entirety because the balloons are not available in our catalog. 
+### Pricing Information:
+#### Itemized Quote:
+1. **Colorful Poster Paper**:  
+   - Quantity: 500 sheets  
+   - Unit Price: $0.25  
+   - Subtotal: $125.00  
 
-### Here's your bulk-discounted quote for the available items:
-- **Colorful Poster Paper:** 500 sheets  
-  - Unit Price: $0.25  
-  - Subtotal: $125.00
+2. **Party Streamers**:  
+   - Quantity: 300 rolls  
+   - Unit Price: $0.05  
+   - Subtotal: $15.00  
 
-- **Streamers:** 300 rolls  
-  - Unit Price: $0.05  
-  - Subtotal: $15.00 
+3. **Balloons**:
+   - Quantity: 200  
+   - Availability: Not available in catalog  
 
-**Subtotal:**
-- Total Before Discount: **$140.00**
+### Subtotal:
+- **Subtotal:** $140.00  
+- **Discount (5% on 500-999 units):** -$7.00  
 
-### **Bulk Discount:**
-- **5% Standard Bulk Discount:** -$7.00
+### Final Quoted Total:
+- **Total (after discount):** $133.00  
 
-### **Final Quoted Total:**
-- **Total:** **$133.00**
+### Important Note:
+Both the colorful poster paper and the party streamers will arrive before your requested delivery date of April 15, 2025. However, we regret to inform you that the balloons cannot be fulfilled as they are not available in our catalog.
 
-If you would like to proceed with the order for the colorful poster paper and streamers or have any further questions, please let me know!"
-3,2025-04-04,44302.54,6013.9,"Thank you for your order request. Here’s the breakdown of your order along with availability:
+If you would like to proceed without the balloons, please let us know, and we can finalize your order for the available items. If you have other requests or questions, feel free to ask!"
+3,2025-04-04,44917.7,5030.3,"Thank you for your order request. After reviewing your inquiry, I regret to inform you that your order cannot be fulfilled due to the following reasons:
 
-### Requested Items:
-- **A4 Paper**: 10,000 sheets
-- **A3 Paper**: 5,000 sheets (no exact match in the catalog; substituted with colored paper)
-- **Printer Paper**: 500 reams 
+1. **A4 paper**: Only 272 units are available, whereas you requested 10,000 units.
+2. **A3 paper**: This item is not in our catalog.
+3. **Printer paper**: This item is also not in our catalog.
 
-### Item Availability & Delivery Schedule:
-- **A4 Paper**: In stock. Ordered 10,272 units; delivery expected by **April 11, 2025**, which meets your deadline.
-- **A3 Paper**: Substituted with colored paper. Delivery expected by **April 11, 2025**.
-- **Printer Paper**: Ordered 500 units. Delivery expected by **April 8, 2025**.
+Since all requested items are either unavailable or not listed, I am unable to confirm your order. 
 
-### Itemized Quote:
-- **A4 Paper**: 
-  - Quantity: 10,000 sheets 
-  - Unit Price: $0.05 
-  - Total: $500.00
-- **A3 Paper**: 
-  - Quantity: 5,000 sheets (colored paper)
-  - Unit Price: $0.10 
-  - Total: $500.00
-- **Printer Paper**: 
-  - Quantity: 500 reams 
-  - Unit Price: $0.04 
-  - Total: $20.00
+### However, here is your itemized bulk-discounted quote for reference:
 
-### Pricing Summary:
-- **Total Before Discount**: $1,020.00
-- **Bulk Discount (15% for 5,000+ units)**: -$153.00
-- **Final Quoted Total**: **$867.00**
+- **A4 paper**: 10,000 units @ **$0.05/unit** = **$500.00**
+- **A3 paper**: 5,000 units @ **$0.10/unit** = **$500.00**
+- **Printer paper**: 500 units @ **$0.04/unit** = **$20.00**
 
-Since all ordered items can be fulfilled on time, I will proceed to finalize the sales transaction using the discounted prices. Please confirm if you would like to proceed with this order!"
-4,2025-04-05,44302.54,6013.9,"Unfortunately, we are unable to fulfill your order for the following reasons:
+#### Subtotal
+- **Subtotal:** **$1,020.00**
 
-- **High-Quality Recycled Cardstock:** 0 units in stock (UNFULFILLABLE).
-- **A4 Size Printer Paper:** 0 units in stock (UNFULFILLABLE).
+#### Discounts
+- **Discount (15% Enterprise Bulk Discount (5,000+ units)):** **-$153.00**
 
-Both items are currently unavailable.
+#### Final Quoted Total
+- **Final Total:** **$867.00**
 
-However, in case you're interested, here is your itemized bulk-discounted quote for the requested items:
+If you need assistance with selecting alternative items or if you have any other inquiries, please feel free to reach out."
+4,2025-04-05,44917.7,5030.3,"Unfortunately, I won’t be able to fulfill your order as requested. Here’s a summary of the findings:
 
-### Itemized Breakdown:
-- **High-Quality Recycled Cardstock:**
-  - Quantity: 500 sheets
-  - Unit Price: $0.15/sheet
-  - Subtotal: $75.00
+- **High-Quality Recycled Cardstock**: UNFULFILLABLE (not in catalog).
+- **A4 Size Printer Paper**: UNFULFILLABLE (unable to restock sufficient quantity).
 
-- **A4 Printer Paper:**
-  - Quantity: 250 sheets
-  - Unit Price: $0.05/sheet
-  - Subtotal: $12.50
+However, I’ve generated a quote for your awareness:
 
-### Summary:
+### Itemized Breakdown
+- **Recycled Cardstock:** 500 units @ $0.15/unit = **$75.00**
+- **A4 Printer Paper:** 250 units @ $0.05/unit = **$12.50**
+
+### Subtotal
 - **Subtotal:** $87.50
-- **Bulk Discount (5% for 500-999 units):** -$4.38
-- **Final Quoted Total:** $83.12
 
-If you have any further questions or if there are alternative products you'd like to consider, please let me know!"
-5,2025-04-05,44284.54,6043.9,"Thank you for your order request! Here's the status of your requested items along with a quote:
+### Discount
+- **Discount (5% Standard Bulk Discount):** -$4.38
 
-### Order Status
+### Final Quoted Total
+- **Final Quoted Total:** **$83.12**
 
-1. **8.5""x11"" Colored Paper**
-   - **Current Stock:** 5988 units (sufficient, no restock needed)
-   - **Status:** Available - Order can be fulfilled.
+If you have any other requests or need further assistance, please let me know!"
+5,2025-04-05,44917.7,5030.3,"Thank you for your order request. Unfortunately, I must inform you that none of the requested items can be fulfilled due to insufficient stock:
 
-2. **Cardstock in Various Colors**
-   - **Current Stock:** 595 units, but needed quantity is 300 sheets.
-   - **Ordered:** 300 sheets (sufficient stock available).
-   - **Supplier ETA:** April 9, 2025.
-   - **Status:** Available - Order can be fulfilled.
+1. **8.5""x11"" Colored Paper**: Currently, there are **0 units** in stock. This item is marked as **UNFULFILLABLE**.
+2. **Cardstock in Various Colors**: Currently, there are **0 units** in stock. This item is marked as **UNFULFILLABLE**.
+3. **Decorative Washi Tape**: Currently, there are **0 units** in stock. This item is marked as **UNFULFILLABLE**.
 
-3. **Decorative Washi Tape**
-   - **Current Stock:** 0 units (not in stock).
-   - **Status:** **UNFULFILLABLE** - No stock available for the order.
+As such, we cannot proceed with the order. 
 
-### Summary
-- The **colored paper** and **cardstock** orders can be fulfilled on time.
-- Unfortunately, the **decorative washi tape** is unfulfillable due to a lack of stock.
+However, here is the itemized quote for the requested items, assuming they were available with bulk discounts applied:
 
-### Itemized Bulk-Discounted Quote
+### Itemized Quote
 
-1. **8.5""x11"" Colored Paper**
+1. **Colored Paper (8.5""x11"")**
    - **Quantity:** 500 sheets
    - **Unit Price:** $0.10
    - **Subtotal:** $50.00
 
-2. **Cardstock (various colors)**
+2. **Cardstock**
    - **Quantity:** 300 sheets
    - **Unit Price:** $0.15
    - **Subtotal:** $45.00
@@ -144,453 +128,456 @@ If you have any further questions or if there are alternative products you'd lik
    - **Unit Price:** $0.20
    - **Subtotal:** $40.00
 
-### Summary of Quote
-- **Total Subtotal:** $135.00
-- **Bulk Discount (10% for 1,000-4,999 units):** -$13.50
+---
+
+### Total Calculation
+- **Subtotal:** $135.00
+- **Bulk Discount (10% for 1,000 - 4,999 units):** -$13.50
 - **Final Quoted Total:** **$121.50**
 
-If you'd like to proceed with just the colored paper and cardstock, or if you have any other questions or adjustments, please let me know!"
-6,2025-04-06,44229.94,6073.9,"Thank you for your order request. Here’s the status of the items you requested:
+If you have any other requests or need adjustments to your order, please let me know!"
+6,2025-04-06,44876.3,5030.3,"Thank you for your order inquiry. Here is the status of the items you requested:
 
-1. **Colorful Construction Paper:** 
-   - **Stock Level:** Currently, we have 0 units available. 
-   - **Action:** We have placed an order for 700 units, which is expected to be available by 2025-04-10.
+1. **Colorful Construction Paper**: Unfortunately, this item is currently unavailable. We have placed a reorder for 700 units, which is expected to arrive by April 10, 2025.
+  
+2. **White Printer Paper**: This item is also currently unavailable. A reorder for 500 units has been placed, with an estimated delivery date of April 10, 2025.
 
-2. **White Printer Paper:** 
-   - **Stock Level:** 500 units available. 
-   - **Action:** We can fulfill your request for 300 sheets from our current stock. This order is also expected to arrive by 2025-04-10.
-
-3. **Cardstock in Various Colors:** 
-   - **Stock Level:** 795 units available. 
-   - **Action:** We can fulfill your request for 200 sheets from our current stock. This order is also expected to arrive by 2025-04-10.
-
-Unfortunately, since the colorful construction paper is currently out of stock and will only arrive after your required deadline of April 15, 2025, we cannot finalize your order as requested.
-
-Here is the itemized breakdown for the available items:
-
-### Itemized Quote
-1. **White Printer Paper:** 
-   - Quantity: 300 sheets  
-   - Unit Price: $0.04  
-   - Subtotal: **$12.00**
-
-2. **Cardstock (various colors):** 
-   - Quantity: 200 sheets  
-   - Unit Price: $0.15  
-   - Subtotal: **$30.00**
-
-### Subtotal
-- **Total Before Discount:** $42.00
-
-### Bulk Discount
-- **Discount (10% Large Bulk Discount):** -$4.20
-
-### Final Quoted Total
-- **Total Amount Due:** **$37.80**
-
-If you would like to proceed with the order excluding the colorful construction paper, please let us know, and we can finalize the parts that are available. Thank you for considering Munder Difflin Paper Company for your supplies!"
-7,2025-04-07,44097.94,6113.9,"Thank you for your order request! Here’s a summary of the inventory status and the itemized quote for the paper supplies you’re looking to purchase:
-
-### Inventory Status
-1. **Glossy A4 Paper**: 
-   - Current Stock: 787 units (sufficient)
-   - Action: Ordered 200 additional units. Supplier ETA: **2025-04-11.**
-
-2. **Matte A3 Paper**: 
-   - Current Stock: 0 units (not sufficient)
-   - Action: Ordered 1000 units, but this item is **unfulfillable** due to no stock available. 
-
-3. **Poster Boards (24"" x 36"")**:
-   - Current Stock: 699 units (sufficient)
-   - No reorder necessary.
-
-4. **Heavyweight Cardstock**:
-   - Current Stock: 995 units (sufficient)
-   - No reorder necessary.
-
-Unfortunately, since we cannot fulfill your request for the **Matte A3 Paper**, we are unable to complete the order as requested. You may want to look for an alternative for that specific item.
-
-### Itemized Quote for Available Items
-- **Glossy A4 Paper**:  
-  500 units @ $0.20/unit = **$100.00**
-
-- **Matte A3 Paper**:  
-  1000 units @ $0.18/unit = **$180.00** (unfulfillable)
-
-- **Poster Boards (24"" x 36"")**:  
-  300 units @ $1.00/unit = **$300.00**
-
-- **Heavyweight Cardstock**:  
-  200 units @ $0.15/unit = **$30.00**
-
-### Subtotal
-- **Subtotal:** **$610.00**
-
-### Discounts
-- **Bulk Discount (10% on 1,000-4,999 units):** -$61.00
-
-### Final Total
-- **Final Quoted Total:** **$549.00**
-
-Please let me know if you have any further questions or if you need to adjust your order. Thank you!"
-8,2025-04-07,44097.94,6113.9,"Thank you for your order inquiry. Unfortunately, I must inform you that none of the items you requested can be fulfilled at this time due to unavailability in our stock. Here are the specifics:
-
-1. **A4 Glossy Paper**: 
-   - Current Stock: 0 units
-   - Estimated Supplier Arrival Date: 2023-10-05
-   - Status: **UNFULFILLABLE**
-
-2. **A4 Matte Paper**: 
-   - Current Stock: 0 units
-   - Estimated Supplier Arrival Date: 2023-10-08
-   - Status: **UNFULFILLABLE**
-
-3. **A5 Colored Paper**: 
-   - Current Stock: 0 units
-   - Estimated Supplier Arrival Date: 2023-10-08
-   - Status: **UNFULFILLABLE**
-
-4. **A4 Recycled Paper**: 
-   - Current Stock: 0 units
-   - Estimated Supplier Arrival Date: 2023-10-08
-   - Status: **UNFULFILLABLE**
-
-This means that we cannot fulfill the order as none of the items will be available in time for your delivery deadline of April 15, 2025.
-
-However, I can share our itemized quote for the available items if you would like to consider alternatives:
+3. **Cardstock in Various Colors**: This item is available, and we have sufficient stock to fulfill your request for 200 sheets.
 
 ### Itemized Quote:
-1. **Glossy Paper**  
-   - Quantity: 500 sheets  
-   - Unit Price: $0.20  
-   - Subtotal: $100.00  
+- **Colorful Construction Paper**: 
+  - Quantity: 500 units
+  - Unit Price: $0.07
+  - Subtotal: $35.00
 
-2. **Matte Paper**  
-   - Quantity: 1000 sheets  
-   - Unit Price: $0.18  
-   - Subtotal: $180.00  
+- **White Printer Paper**: 
+  - Quantity: 300 units
+  - Unit Price: $0.04
+  - Subtotal: $12.00
 
-3. **A5 Colored Paper**  
-   - Quantity: 2000 sheets  
-   - Unit Price: $0.10  
-   - Subtotal: $200.00  
-
-4. **A4 Recycled Paper**  
-   - Quantity: 3000 sheets  
-   - Unit Price: $0.08  
-   - Subtotal: $240.00  
-
-### Bulk Discount:
-- **Total before discounts**: **$720.00**
-- **Discount (15% Enterprise Bulk Discount for 5,000+ units)**: -$108.00  
-- **Final Quoted Total**: **$612.00**
-
-If you have any further requests or need modifications, feel free to ask!"
-9,2025-04-07,44085.94,6133.9,"Thank you for your order request. Unfortunately, we are unable to fulfill it in full. Here's the situation regarding your requested items:
-
-1. **A4 White Printer Paper**: Available in stock (10,544 sheets), so your order of 200 sheets can be fulfilled.
-2. **A3 Glossy Paper**: We have sufficient stock and can fulfill your order of 100 sheets, which will arrive by your delivery deadline of April 10, 2025.
-3. **100% Recycled Kraft Paper Envelopes**: Unfortunately, this item is currently out of stock. The estimated arrival from our supplier is April 11, 2025, which exceeds your delivery deadline. Therefore, this item cannot be fulfilled.
-
-### Itemized Bulk-Discounted Quote:
-- **A4 White Printer Paper**: 200 units @ $0.05/unit = **$10.00**
-- **A3 Glossy Paper**: 100 units @ $0.20/unit = **$20.00**
-- **Recycled Kraft Paper Envelopes**: Not available in catalog
-
-#### Subtotal: **$30.00**
-#### Discount: **Bulk Discount (Standard Pricing under 500 units)**: -$0.00
-### Final Quoted Total: **$30.00**
-
-Please let me know if you would like to proceed with the order for the available items or if there is anything else I can assist you with!"
-13,2025-04-08,44049.94,6193.9,"Your order has been successfully placed and finalized! Here are the details:
-
-### Order Confirmation
-- **A4 Printing Paper**: 500 sheets for $25.00
-- **Cardstock**: 200 sheets for $30.00
-- **Subtotal**: $55.00
-- **Bulk Discount (5%)**: -$2.75
-- **Final Total**: $52.25
-
-### Delivery Information
-- **Delivery Date**: April 10, 2025
-
-Thank you for choosing Munder Difflin Paper Company for your needs! If you have any further questions or need additional assistance, feel free to reach out."
-12,2025-04-08,44080.14,6193.9,"Your order has been successfully placed with the following details:
-
-- **200 sheets of colorful cardstock** for **$19.40**.
-- **500 sheets of standard printer paper** for **$20.00**.
-- **100 paper napkins** for **$10.00**.
-
-### Total Summary:
-- **Final Quoted Total**: **$49.40**.
-
-All items will be delivered by your requested deadline of **April 15, 2025**. If you have any further questions or need additional assistance, feel free to ask. Thank you for choosing Munder Difflin Paper Company for your supplies!"
-10,2025-04-08,44301.64,6138.9,"Your order has been successfully placed! Here are the details:
-
-- **500 sheets of High-Quality Glossy Paper** 
-- **300 sheets of Sturdy Cardstock** 
-
-**Total Cost:** $137.75 (including a bulk discount)
-
-The order is set to be delivered by **April 15, 2025**, as requested.
-
-You will receive a confirmation shortly. If you have any further questions or need additional assistance, feel free to reach out. Thank you for choosing Munder Difflin Paper Company!"
-11,2025-04-08,44372.64,6138.9,"Your order has been successfully processed! Here are the details:
-
-### Order Confirmation
-- **A3 Glossy Paper:**
-  - Quantity: 500 sheets
-  - Unit Price: $0.20
-  - Total: $100.00
-
-- **A4 Matte Paper:**
-  - Quantity: 300 sheets
-  - Unit Price: $0.18
-  - Total: $54.00
-
-### Pricing Summary
-- **Subtotal:** $154.00
-- **Bulk Discount (5%):** -$7.70
-- **Final Total:** $146.30
-
-### Order Status
-- **Request Date:** April 8, 2025
-- **Delivery Deadline:** April 15, 2025
-- Both items are set to be delivered on time.
-
-If you have any further questions or need additional assistance, feel free to ask! Thank you for choosing Munder Difflin Paper Company for your exhibition needs!"
-14,2025-04-09,44372.64,6138.9,"Thank you for your order inquiry. Here's the status of your requested items:
-
-1. **A4 Paper**: Available stock is **10,044 sheets**. This can fulfill your request of 5,000 sheets.
-2. **Poster Paper (various colors)**: Available stock is **700 sheets**, which is insufficient for your request of 2,000 sheets. Additionally, the estimated supplier delivery date is **April 22, 2025**, which exceeds your delivery deadline of **April 15, 2025**. Thus, this item is marked as **UNFULFILLABLE**.
-3. **Cardstock**: Available stock is **1,095 sheets**, but for your request of 500 sheets, the estimated supplier delivery date is **April 19, 2025**, which also exceeds your deadline. Therefore, this item is also marked as **UNFULFILLABLE**.
-
-**Summary**:
-- **A4 Paper**: Available, can fulfill the order.
-- **Poster Paper**: UNFULFILLABLE due to insufficient stock and delivery timeline.
-- **Cardstock**: UNFULFILLABLE due to delivery timeline.
-
-### Here’s your bulk-discounted quote for the order:
-- **A4 paper**: 5000 units @ $0.05/unit = **$250.00**
-- **Poster paper**: 2000 units @ $0.25/unit = **$500.00**
-- **Cardstock**: 500 units @ $0.15/unit = **$75.00**
-
-### Subtotal
-- **Subtotal**: **$825.00**
-
-### Discount
-- **Discount (15% Enterprise Bulk Discount - for 5,000+ units)**: **-$123.75**
-
-### Final Quoted Total
-- **Final Quoted Total**: **$701.25**
-
-Unfortunately, since the poster paper and cardstock cannot be fulfilled within your specified deadline, we regret to inform you that we cannot complete this order as requested. If you would like to adjust your quantities or choose alternative items, please let us know!"
-15,2025-04-12,44477.14,6083.9,"Thank you for your order inquiry. Here's what I've found regarding your request:
-
-1. **A4 White Paper**:
-   - Current Stock: 10,044 sheets
-   - Requested: 10,000 sheets
-   - Status: Fulfillable (In stock)
-
-2. **A3 Colored Paper**:
-   - Current Stock: 5,988 sheets
-   - Requested: 5,000 sheets
-   - Status: Fulfillable (In stock)
-
-3. **Cardboard for Signage**:
-   - Status: **UNFULFILLABLE** (Item not carried in Munder Difflin's catalog)
-
-As the cardboard for signage is not available, the entire order cannot be finalized. 
-
-### Here is your itemized bulk-discounted quote for the available items:
-
-- **A4 White Paper**: 
-  - Quantity: 10,000 sheets 
-  - Unit Price: $0.05 
-  - Subtotal: $500.00
-
-- **A3 Colored Paper**: 
-  - Quantity: 5,000 sheets 
-  - Unit Price: $0.10 
-  - Subtotal: $500.00
-
-### **Subtotals**:
-- **Subtotal**: $1,000.00
-
-### **Discounts**:
-- **Discount (15% Enterprise Bulk Discount)**: -$150.00
-
-### **Final Quoted Total**:
-- **Total**: $850.00
-
-If you would like to proceed with the order for A4 white and A3 colored paper or if you need any other assistance, please let me know!"
-16,2025-04-13,44477.14,6083.9,"Unfortunately, we are unable to fulfill your order for the following items due to supplier delivery timelines that exceed your required deadline of April 15, 2025:
-
-1. **A4 Printer Paper**: Supplier delivery ETA is April 19, 2025.
-2. **Colorful Construction Paper**: Supplier delivery ETA is April 19, 2025.
-3. **Poster Board**: Supplier delivery ETA is April 16, 2025.
-
-Here’s the bulk-discounted quote for your requested items:
-
-### Itemized Quote:
-- **A4 Printer Paper**: 500 units @ **$0.05/unit** = **$25.00**
-- **Colorful Construction Paper**: 200 units @ **$0.07/unit** = **$14.00**
-- **Poster Board**: 100 units @ **$0.25/unit** = **$25.00**
-
-### Subtotal:
-- **Total** = **$64.00**
-
-### Discounts:
-- **Bulk Discount (5% for 500-999 units)**: -**$3.20**
-
-### Final Quoted Total:
-- **$60.80**
-
-If you would like to adjust your order or need further assistance, please let me know!"
-17,2025-04-14,44477.14,6083.9,"Thank you for your order request. However, I regret to inform you that we cannot fulfill your order at this time due to the following issues:
-
-1. **A4 White Printer Paper**: Out of stock (0 units available) and cannot be procured in time.
-2. **A3 Colored Paper (Assorted Colors)**: Out of stock (0 units available) and cannot be procured in time.
-3. **Table Napkins (White)**: Out of stock (0 units available) and cannot be procured in time.
-4. **Paper Cups (Biodegradable)**: This item is not carried in our catalog.
-5. **Paper Plates (Biodegradable)**: This item is also not carried in our catalog.
-
-While we cannot process your full order, here is the itemized quote for the available items you requested:
-
-### ITEMIZED QUOTE:
-- **A4 White Printer Paper**: 1000 units @ $0.05/unit = **$50.00**
-- **A3 Colored Paper**: 500 units @ $0.10/unit = **$50.00**
-- **Table Napkins**: 2000 units @ $0.02/unit = **$40.00**
-- **Paper Cups (Biodegradable)**: 1000 units @ $0.08/unit = **$80.00**
-- **Paper Plates (Biodegradable)**: 500 units @ $0.10/unit = **$50.00**
+- **Cardstock**: 
+  - Quantity: 200 units
+  - Unit Price: $0.15
+  - Subtotal: $30.00
 
 ### Summary:
-- **Subtotal**: **$270.00**
-- **Discount (15% Enterprise Bulk Discount on 5,000+ units)**: -**$40.50**
+- **Total Before Discount**: $77.00
+- **Large Bulk Discount (10% for 1,000-4,999 units)**: -$7.70
+- **Final Quoted Total**: $69.30
 
-### Final Quoted Total: **$229.50**
+Since the colorful construction paper and white printer paper cannot be delivered by your requested deadline of April 15, 2025, I regret to inform you that we cannot finalize your order at this time.
 
-If you are interested in adjusting your order to include only items that are available, or if you have other inquiries, please let me know!"
-18,2025-04-14,44477.14,6083.9,"Thank you for your order request. Unfortunately, I am unable to fulfill your order at this time due to the following reasons:
+Please feel free to reach out if you have any further questions or need assistance with other products. Thank you for considering Munder Difflin Paper Company!"
+7,2025-04-07,44876.3,5030.3,"Thank you for your order request for the upcoming exhibition. Here’s the status of your requested items:
 
-1. **High-Quality White Cardstock**: Currently, there are 0 units in stock.  
-   - Status: **UNFULFILLABLE** (not enough stock).
+1. **Glossy A4 Paper**: 
+   - Available Stock: 787 units
+   - Status: **Fulfillable** (Can fulfill the order for 500 sheets)
 
-2. **Standard Printing Paper**: Currently, there are 0 units in stock.  
-   - Status: **UNFULFILLABLE** (not enough stock).
+2. **Matte A3 Paper**: 
+   - Available Stock: 0 units
+   - Status: **UNFULFILLABLE** (Out of stock, cannot fulfill an order for 1000 sheets)
 
-3. **Colored Paper in Assorted Colors**: This item is not carried in our catalog.  
-   - Status: **UNFULFILLABLE**.
+3. **Poster Boards (24"" x 36"")**: 
+   - Status: **UNFULFILLABLE** (Not carried in the catalog)
 
-Since none of the requested items can be fulfilled, I am unable to finalize your order.
+4. **Heavyweight Cardstock**: 
+   - Available Stock: 795 units
+   - Status: **Fulfillable** (Can fulfill the order for 200 sheets)
 
-### However, here is the itemized breakdown of your bulk-discounted quote for your reference:
+Unfortunately, the order cannot be fulfilled due to the Matte A3 Paper being out of stock and the Poster Boards not being part of our catalog. 
 
-- **High-Quality White Cardstock**:  
-  500 units @ **$0.15/unit** = **$75.00**
+Here is the itemized bulk-discounted quote for the fulfillable items:
 
-- **Standard Printing Paper**:  
-  1000 units @ **$0.04/unit** = **$40.00**
+### Itemized Quote
+- **Glossy A4 Paper**: 500 sheets @ $0.20/unit = **$100.00**
+- **Heavyweight Cardstock**: 200 sheets @ $0.15/unit = **$30.00**
 
-- **Colored Paper**:  
-  200 units @ **$0.10/unit** = **$20.00**
+### Summary
+- **Subtotal**: $130.00
+- **Bulk Discount (10% Large Bulk Discount applied)**: -$13.00
+- **Final Quoted Total**: **$117.00**
 
----
+We appreciate your understanding, and if you'd like to proceed with the items that can be fulfilled or have any further questions, please let me know!"
+8,2025-04-07,44732.3,5270.3,"Thank you for your order inquiry. Here’s the status of your requested items:
 
-### Subtotal:  
-**$135.00**
-
-### Discount:  
-- **10% Large Bulk Discount (1,000-4,999 units)**: -**$13.50**
-
----
-
-### Final Quoted Total:  
-**$121.50**
-
-If you have any questions or would like to explore alternative options, please let me know!"
-19,2025-04-15,44330.89,6219.65,"Dear Customer,
-
-Thank you for your inquiry regarding your order for paper supplies. I appreciate your request and would like to provide you with an update.
-
-### Order Details:
-- **A4 Glossy Paper**: 2000 sheets 
-- **A3 Matte Paper**: 1500 sheets 
-- **Cardstock in Assorted Colors**: 1000 sheets 
-- **Request Date**: April 15, 2025
-- **Delivery Deadline**: April 20, 2025
-
-### Availability Summary:
+### Availability:
 1. **A4 Glossy Paper**
-   - **Current Stock**: 887 sheets
-   - **Status**: UNFULFILLABLE (Not enough stock available)
+   - Current Stock: 787 sheets
+   - Order Placed: 500 sheets (ETA: 2025-04-11) - **Fulfillable**
+
+2. **A4 Matte Paper**
+   - Current Stock: 0 sheets
+   - Status: **UNFULFILLABLE** (Out of stock)
+
+3. **A5 Colored Paper**
+   - Current Stock: 988 sheets
+   - Order Placed: 2000 sheets (ETA: 2025-04-14) - **Fulfillable**
+
+4. **A4 Recycled Paper**
+   - Current Stock: 0 sheets
+   - Status: **UNFULFILLABLE** (Out of stock)
+
+Unfortunately, the **A4 Matte Paper** and **A4 Recycled Paper** are currently out of stock and cannot be fulfilled by your requested deadline. 
+
+### Itemized Quote for Available Items:
+- **A4 Glossy Paper**: 500 sheets @ $0.20/sheet = **$100.00**
+- **A5 Colored Paper**: 2000 sheets @ $0.10/sheet = **$200.00**
+
+### Subtotal:
+**Subtotal**: **$300.00**
+
+### Bulk Discount:
+- Discount (15% for orders over 5,000 units): **-$45.00**
+
+### Final Quoted Total:
+**Total**: **$255.00**
+
+If you would like to proceed with the fulfillment of the available items, please let us know. If you have any other items or adjustments to consider, feel free to reach out! Thank you for considering Munder Difflin Paper Company for your paper needs!"
+9,2025-04-07,44732.3,5270.3,"Thank you for your inquiry! Unfortunately, I'm unable to fulfill your entire order as all requested items are not carried in Munder Difflin's catalog. 
+
+Here is the bulk-discounted quote for the items we can offer:
+
+### Itemized Breakdown
+
+- **A4 White Printer Paper**:  
+  Quantity: 200 sheets  
+  Unit Price: $0.05  
+  **Subtotal**: $10.00  
+
+- **A3 Glossy Paper**:  
+  Quantity: 100 sheets  
+  Unit Price: $0.20  
+  **Subtotal**: $20.00  
+
+- **100% Recycled Kraft Paper Envelopes**:  
+  Quantity: 50 packets  
+  Unit Price: $0.05  
+  **Subtotal**: $2.50  
+
+### Summary
+- **Subtotal**: $32.50  
+- **Bulk Discount**: $0.00 (Standard Pricing - under 500 units)  
+- **Final Quoted Total**: **$32.50**
+
+If you're interested in placing an order for the available items, please let me know. Otherwise, feel free to reach out if you have any further questions!"
+13,2025-04-08,44732.3,5270.3,"Thank you for your order inquiry! Unfortunately, I need to inform you that we cannot fulfill your request for the following reasons:
+
+1. **A4 Printing Paper**: We have a stock of only 272 sheets. You requested 500 sheets, which means there is a shortfall of 228 sheets, and our supplier can only replenish this stock by **April 12, 2025**, which is after your requested delivery date of **April 10, 2025**.
+
+2. **Cardstock**: While we have enough stock (795 sheets) to fulfill your request for 200 sheets, the same supplier delivery date of **April 12, 2025**, applies here as well, rendering this item unfulfillable by your deadline.
+
+### Here is your quote for the requested items:
+- **A4 Paper**: 500 units @ $0.05/unit = **$25.00**
+- **Cardstock**: 200 units @ $0.15/unit = **$30.00**
+
+### Subtotal
+- **Subtotal**: **$55.00**
+
+### Discounts
+- **Bulk Discount (5% for orders of 500-999 units)**: -$2.75
+
+### Final Quoted Total
+- **Final Quoted Total**: **$52.25**
+
+We appreciate your understanding, and please let us know if you'd like to adjust your order or consider alternative items. Thank you!"
+12,2025-04-08,44732.3,5270.3,"Thank you for your order inquiry. Unfortunately, we are unable to fulfill your request for the following reasons:
+
+1. **Colorful Cardstock**: Not available in the catalog.
+2. **Standard Printer Paper**: Not available in the catalog.
+3. **Paper Napkins**: Currently out of stock (0 units) and the next estimated supplier arrival date is October 2, 2023. Additionally, attempts to procure the required quantity were unsuccessful.
+
+As a result, all requested items are marked as unfulfillable.
+
+### Itemized Quote for Available Items:
+However, here’s the itemized bulk-discounted quote if these items were available:
+
+- **Colorful Cardstock**:  
+  - Quantity: 200 sheets  
+  - Unit Price: $0.15  
+  - Subtotal: **$30.00**
+
+- **Standard Printer Paper**:  
+  - Quantity: 500 sheets  
+  - Unit Price: $0.04  
+  - Subtotal: **$20.00**
+
+- **Paper Napkins**:  
+  - Quantity: 100 napkins  
+  - Unit Price: $0.02  
+  - Subtotal: **$2.00**
+
+### Summary
+- **Subtotal**: **$52.00**
+- **Bulk Discount (5% on orders with 500-999 units)**: **-$2.60**  
+- **Total**: **$49.40**
+
+Please let me know if there's anything else you would like to order or if you have questions!"
+10,2025-04-08,44835.3,5195.3,"Your order has been successfully placed! Here are the details:
+
+### Order Summary:
+- **High-quality glossy paper**: 500 sheets for $100.00
+- **Sturdy cardstock**: 300 sheets for $45.00
+
+### Total Cost:
+- **Subtotal**: $145.00
+- **Discount**: -$7.25 (5% off)
+- **Final Total**: $137.75
+
+### Transaction Details:
+- **confirmation record**: 500 sheets of high-quality glossy paper.
+- **confirmation record**: 300 sheets of sturdy cardstock.
+
+### Delivery Information:
+- **Requested Date**: April 8, 2025
+- **Delivery Date**: April 15, 2025
+
+If you have any further questions or need additional assistance, please let me know!"
+11,2025-04-08,44835.3,5195.3,"Thank you for your inquiry regarding your order for the exhibition. Unfortunately, I must inform you that neither of the requested items can be fulfilled at this time:
+
+1. **A3 Glossy Paper**: Currently out of stock, with no restock feasible to meet your delivery deadline.
+2. **A4 Matte Paper**: Currently out of stock, with the same unfulfilled conditions.
+
+Here is the bulk-discounted quote for the items you requested:
+
+### Itemized Breakdown:
+- **A3 Glossy Paper:** 500 sheets @ **$0.20/sheet** = **$100.00**
+- **A4 Matte Paper:** 300 sheets @ **$0.18/sheet** = **$54.00**
+
+### Subtotal:
+- **Subtotal:** $154.00
+
+### Discount:
+- **Bulk Discount (5% for 500-999 units):** -$7.70
+
+### Final Quoted Total:
+- **Total (after discount):** **$146.30**
+
+If you have any further questions or need adjustments regarding different items, please let me know!"
+14,2025-04-09,44816.85,5226.05,"Thank you for your order request. Here’s an update on your paper supply order:
+
+### Order Status:
+1. **A4 Paper**: 
+   - **Current Stock**: 272 units
+   - **Shortfall**: 4728 units
+   - **Status**: UNFULFILLABLE due to delivery timeline constraints (supplier ETA after deadline).
+
+2. **Poster Paper in Various Colors**: 
+   - **Current Stock**: 700 units
+   - **Shortfall**: 1301 units
+   - **Status**: UNFULFILLABLE due to delivery timeline constraints (supplier ETA after deadline).
+
+3. **Cardstock**: 
+   - **Current Stock**: 695 units
+   - **Shortfall**: 105 units
+   - **Action Taken**: Successfully ordered 205 units. Supplier ETA: 2025-04-13, which is on time for your deadline.
+
+### Itemized Bulk Quote:
+- **A4 Paper:** 5000 units @ $0.05/unit = **$250.00**
+- **Poster Paper:** 2000 units @ $0.25/unit = **$500.00**
+- **Cardstock:** 500 units @ $0.15/unit = **$75.00**
+
+#### Summary:
+- **Subtotal:** **$825.00**
+- **Bulk Discount (15% Enterprise Bulk Discount on 5,000+ units):** -$123.75
+- **Total:** **$701.25**
+
+Unfortunately, we are unable to fulfill the orders for A4 paper and poster paper due to stock limitations and the delivery deadline. Only the cardstock order has been successfully placed.
+
+If you would like to adjust your request or have any other questions, feel free to let us know! Thank you for considering Munder Difflin Paper Company for your paper supply needs!"
+15,2025-04-12,44816.85,5226.05,"Thank you for your order request. However, I regret to inform you that none of the requested items can be fulfilled due to inventory availability issues:
+
+1. **A4 White Paper**: 
+   - Current Stock: 272 sheets
+   - Needed: 10,000 sheets
+   - Supplier ETA if reordered: 2025-04-19
+   - **Status**: UNFULFILLABLE
+
+2. **A3 Colored Paper (Assorted Colors)**: 
+   - Current Stock: 2,988 sheets
+   - Needed: 5,000 sheets
+   - Supplier ETA if reordered: 2025-04-16
+   - **Status**: UNFULFILLABLE
+
+3. **Cardboard for Signage**: 
+   - **Status**: UNFULFILLABLE (item is not in catalog)
+
+### Summary for Available Items
+Unfortunately, as none of your requested items can be fulfilled, we will not be able to complete your order.
+
+### Itemized Quote Breakdown 
+While we cannot fulfill your request, here is the quote for the items you requested:
+- **A4 White Paper**: 10,000 sheets at $0.05/sheet, totaling **$500.00**
+- **A3 Colored Paper (Assorted Colors)**: 5,000 sheets at $0.10/sheet, totaling **$500.00**
+- Cardboard for Signage: Not available in our catalog.
+
+#### Total Amount
+- **Subtotal**: $1,000.00
+- **Bulk Discount (15% for Enterprise Order over 5,000 units)**: -$150.00
+- **Final Quoted Total**: **$850.00**
+
+If you have any other requests or need different items, please let me know, and I'll be happy to assist!"
+16,2025-04-13,44797.65,5226.05,"Thank you for your order request. Here's a summary of the availability and pricing for the items you requested:
+
+### Items Requested:
+1. **A4 Printer Paper**: 500 sheets
+2. **Colorful Construction Paper**: 200 sheets
+3. **Poster Board**: 100 sheets
+
+### Inventory Check Results:
+- **A4 Printer Paper**: 
+  - Current Stock: 272 sheets 
+  - **Status**: Unfulfillable (you requested 500 sheets, and we only have 272 available). The supplier's ETA for restock is April 17, 2025, which is after your deadline of April 15, 2025.
+  
+- **Colorful Construction Paper**:
+  - Current Stock: 700 sheets 
+  - **Status**: Sufficient stock (we successfully ordered 100 units, ETA April 14, 2025).
+  
+- **Poster Board**: 
+  - Current Stock: 700 sheets 
+  - **Status**: Sufficient stock (we successfully ordered 100 units, ETA April 14, 2025).
+
+### Itemized Bulk-Discounted Quote:
+- **A4 Printer Paper**: 500 units @ $0.05/unit = **$25.00**
+- **Colorful Construction Paper**: 200 units @ $0.07/unit = **$14.00**
+- **Poster Board**: 100 units @ $0.25/unit = **$25.00**
+
+**Subtotal:** **$64.00**  
+**Discount (5%):** **-$3.20**  
+**Final Quoted Total:** **$60.80**
+
+Unfortunately, we cannot fulfill your entire request due to the unavailability of the A4 printer paper before your deadline. If you would like to proceed with the items that can be fulfilled (colorful construction paper and poster board), please let me know, and I will assist you further."
+17,2025-04-14,44797.65,5226.05,"Thank you for your inquiry regarding your paper supplies order. Unfortunately, we are unable to fulfill the entire order due to the following reasons:
+
+1. **A4 White Printer Paper**: Out of stock and cannot be restocked.
+2. **A3 Colored Paper (Assorted Colors)**: Out of stock and cannot be restocked.
+3. **Table Napkins (White)**: Out of stock and cannot be restocked.
+4. **Biodegradable Paper Cups**: Not available in our catalog.
+5. **Biodegradable Paper Plates**: Not available in our catalog.
+
+As a result, we are unable to proceed with your order.
+
+Below is the bulk-discounted quote for the available items, which unfortunately are currently unfulfillable:
+
+### Itemized Breakdown
+- **A4 White Printer Paper**: 1000 sheets @ $0.05/unit = **$50.00**
+- **A3 Colored Paper**: 500 sheets @ $0.10/unit = **$50.00**
+- **Table Napkins**: 2000 units @ $0.02/unit = **$40.00**
+- **Biodegradable Paper Cups**: **Not available in catalog**
+- **Biodegradable Paper Plates**: **Not available in catalog**
+
+### Subtotal
+- **Subtotal**: $140.00
+
+### Discounts
+- **Discount (10% for Large Bulk Order)**: -$14.00
+
+### Final Quoted Total
+- **Total**: **$126.00**
+
+We sincerely apologize for this inconvenience. If there are alternative products or smaller quantities that you are interested in, please let us know, and we will do our best to assist you."
+18,2025-04-14,44797.65,5226.05,"Thank you for your order inquiry. 
+
+Here's the availability status for the requested items:
+
+1. **High-Quality White Cardstock**: 
+   - **Availability**: 900 sheets in stock.
+   - **Action**: Order can be fulfilled.
+
+2. **Standard Printing Paper**:
+   - **Availability**: 500 sheets in stock.
+   - **Action**: A reorder for an additional 500 sheets has been initiated, with an estimated arrival on **April 18, 2025**. However, this delivery is AFTER your deadline of **April 15, 2025**, making the order unfulfillable.
+
+3. **Colored Paper in Assorted Colors**:
+   - **Availability**: UNFULFILLABLE, as this item is not available in our catalog.
+
+**Summary**: The high-quality white cardstock can be fulfilled, but the orders for standard printing paper and colored paper are unfulfillable due to either stock or catalog availability issues.
+
+### Itemized Bulk-Discounted Quote
+Here is the itemized bulk-discounted quote for your order:
+
+| Item                       | Quantity | Unit Price | Subtotal      |
+|----------------------------|----------|------------|---------------|
+| Cardstock                  | 500      | $0.15      | $75.00        |
+| A4 Printing Paper          | 1000     | $0.05      | $50.00        |
+| Colored Paper (Assorted)   | 200      | $0.10      | $20.00        |
+
+**Subtotal:** $145.00
+
+### Discounts
+- **Bulk Discount (10% for large orders of 1,000-4,999 units):** -$14.50
+
+### Final Quoted Total
+**Total:** $130.50
+
+Given that some items are unfulfillable, I apologize for the inconvenience. If you would like to proceed with the order for the available items or have any further questions, please let me know!"
+19,2025-04-15,44797.65,5226.05,"Dear Customer,
+
+Thank you for your inquiry regarding the paper supplies for your upcoming exhibition. After reviewing your order request, I regret to inform you that we are unable to fulfill it due to the following reasons:
+
+1. **A4 Glossy Paper**: 
+   - Required: 2000 sheets 
+   - **Current Stock**: 687 units 
+   - **Status**: UNFULFILLABLE due to insufficient stock.
    
-2. **A3 Matte Paper**
-   - **Current Stock**: 913 sheets
-   - **Supplier ETA**: April 19, 2025 (can be fulfilled by the deadline)
-   - Status: Ordered 600 sheets (Transaction #52)
+2. **A3 Matte Paper**: 
+   - Required: 1500 sheets 
+   - **Current Stock**: 0 units 
+   - **Status**: UNFULFILLABLE due to insufficient stock.
 
-3. **Cardstock in Assorted Colors**
-   - **Current Stock**: 1095 sheets
-   - **Supplier ETA**: April 19, 2025 (can be fulfilled by the deadline)
-   - Status: Ordered 905 sheets (Transaction #46)
+3. **Assorted Cardstock**: 
+   - **Status**: UNFULFILLABLE as this item is not carried in our catalog.
 
-### Itemized Quote:
-Here is the bulk-discounted quote for the available items:
-1. **Glossy Paper (A4)**
-   - Quantity: 2000 sheets
-   - Unit Price: $0.20
-   - **Subtotal:** $400.00
+Additionally, even if restocking were considered, the supplier delivery estimates for A4 Glossy Paper and A3 Matte Paper are both after your requested delivery deadline (ETA: April 22, 2025).
 
-2. **Matte Paper (A3)**
-   - Quantity: 1500 sheets
-   - Unit Price: $0.18
-   - **Subtotal:** $270.00
+However, here is the itemized bulk-discounted quote for the items that were considered:
 
-3. **Cardstock (Assorted Colors)**
-   - Quantity: 1000 sheets
-   - Unit Price: $0.15
-   - **Subtotal:** $150.00
+### Itemized Quote
+| Item                    | Quantity | Unit Price | Subtotal      |
+|-------------------------|----------|------------|---------------|
+| A4 Glossy Paper         | 2000     | $0.20      | $400.00       |
+| A3 Matte Paper          | 1500     | $0.18      | $270.00       |
+| Assorted Cardstock      | 1000     | Not available in catalog | N/A           |
+| **Subtotal**            |          |            | **$670.00**   |
+| **Discount**            |          |            | **- $67.00**  |
+| **Final Total**         |          |            | **$603.00**   |
 
-- **Subtotal:** $820.00
-- **Bulk Discount (10% on orders of 1,000-4,999 units): -$82.00**
-- **Final Quoted Total:** **$738.00**
+### Discount Details
+- **Bulk Discount**: 10% for orders of 1,000-4,999 units.
 
-### Important Note:
-Unfortunately, your order cannot be finalized due to the unavailability of the A4 glossy paper. The A3 matte paper and cardstock can be supplied on time, but we cannot proceed without all requested items being available.
-
-If you would like to adjust your order or need further assistance, please let me know.
-
-Thank you for your understanding!
+Please let me know if you would like to adjust your order or if there is anything else I can assist you with. Thank you for considering Munder Difflin for your needs!
 
 Best regards,  
 [Your Name]  
 Lead Customer Operations Orchestrator  
-Munder Difflin Paper Company  "
-20,2025-04-17,44330.89,6219.65,"Thank you for your order inquiry. Unfortunately, we're unable to fulfill your requested items as they are not carried in Munder Difflin's catalog:
+Munder Difflin Paper Company"
+20,2025-04-17,44149.65,5226.05,"Thank you for your order request. Here’s the update on your requested items:
 
-- **Flyers:** 5,000 units
-- **Posters:** 2,000 units
-- **Tickets:** 10,000 units
+### Availability Update:
+1. **Flyers**: Currently **out of stock** (0 units available). However, we have an order of **5,200 units** scheduled to arrive by **April 24, 2025**, which will meet your deadline of **May 15, 2025**.
+   
+2. **Posters (Poster paper)**: Currently **in stock** (800 units available). An additional **1,200 units** have also been ordered, with the same delivery date of **April 24, 2025**, which will meet your deadline of **May 15, 2025**.
+   
+3. **Tickets**: Unfortunately, this item is **not available in Munder Difflin's catalog**, making it unfulfillable.
 
-However, I have an itemized quote for the available items from your order:
+### Itemized Bulk-Discounted Quote:
+1. **Flyers**: 
+   - Quantity: 5,000 units 
+   - Unit Price: $0.15 
+   - Subtotal: $750.00 
 
-### Itemized Quote
-- **Flyers:** 5,000 units  
-  - Unit Price: $0.15  
-  - Subtotal: $750.00
+2. **Posters**: 
+   - Quantity: 2,000 units 
+   - Unit Price: $0.25 
+   - Subtotal: $500.00 
 
-- **Posters:** 2,000 units  
-  - Unit Price: $0.25  
-  - Subtotal: $500.00
+3. **Tickets**: 
+   - Quantity: 10,000 units 
+   - **Note**: Not available in catalog.
 
-#### **Total for Available Items:**
-- **Subtotal:** $1,250.00
+### Summary of Costs:
+- **Subtotal**: $1,250.00  
+- **Bulk Discount (15% Enterprise Bulk Discount for 5,000+ units)**: -$187.50  
+- **Final Quoted Total**: $1,062.50  
 
-### Discounts
-- **Bulk Discount (15% Enterprise Bulk Discount for 5,000+ units):** -$187.50
-
-### **Final Quoted Total:**
-- **Total Amount:** **$1,062.50**
-
-Please let me know if you would like to proceed with the order of the flyers and posters or if there are any other items you may need. Thank you!"
+Since the **tickets** are unfulfillable, we cannot complete your order at this time. If you're interested, we can assist you with other items or alternatives. Please let us know how you would like to proceed!"

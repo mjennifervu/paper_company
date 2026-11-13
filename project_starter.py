@@ -14,6 +14,7 @@ from pydantic_ai.providers.openai import OpenAIProvider
 from pydantic_ai.usage import UsageLimits
 from sqlalchemy import Engine, create_engine
 from sqlalchemy.sql import text
+import re
 
 # Load environment variables from .env
 dotenv.load_dotenv()
@@ -884,6 +885,15 @@ async def consult_sales_agent(ctx: RunContext[None], task_prompt: str) -> str:
     res = await sales_agent.run(task_prompt, usage=ctx.usage)
     return res.output
 
+def sanitize_customer_response(response: str) -> str:
+    """Remove internal IDs and operational markers from customer-facing text."""
+    if not response:
+        return response
+
+    sanitized = re.sub(r'\s*\(Transaction #\d+\)', '', response)
+    sanitized = re.sub(r'Transaction #\d+', 'confirmation record', sanitized)
+    sanitized = re.sub(r'\bTX[-_]?\d+\b', 'confirmation record', sanitized, flags=re.IGNORECASE)
+    return sanitized.strip()
 
 def call_multi_agent_system(request_with_date: str) -> str:
     """Execute the multi-agent workflow with unrestricted request_limit to prevent UsageLimitExceeded."""
@@ -891,7 +901,7 @@ def call_multi_agent_system(request_with_date: str) -> str:
         request_with_date,
         usage_limits=UsageLimits(request_limit=None),
     )
-    return result.output
+    return sanitize_customer_response(result.output)
 
 
 # ==============================================================================
